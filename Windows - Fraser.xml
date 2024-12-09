@@ -1,0 +1,103 @@
+<keymap version="1" name="Windows - Fraser" parent="$default">
+  <action id="ActivateBookmarksToolWindow"/>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4"/>
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2"/>
+  </action>
+  <action id="ActivateFindToolWindow"/>
+  <action id="ActivateProblemsViewToolWindow"/>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1"/>
+  </action>
+  <action id="ActivatePythonConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9"/>
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt 2"/>
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7"/>
+  </action>
+  <action id="ActivateStructureToolWindow"/>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3"/>
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5"/>
+  </action>
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c"/>
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="ctrl delete"/>
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space"/>
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end"/>
+    <keyboard-shortcut first-keystroke="ctrl e"/>
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home"/>
+    <keyboard-shortcut first-keystroke="ctrl a"/>
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right"/>
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left"/>
+  </action>
+  <action id="ExecuteRuff">
+    <keyboard-shortcut first-keystroke="ctrl alt l"/>
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3"/>
+  </action>
+  <action id="FindPrevious"/>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift ctrl b"/>
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl o"/>
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l"/>
+  </action>
+  <action id="GotoRow"/>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1"/>
+  </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="ctrl h"/>
+  </action>
+  <action id="LocalHistory.ShowSelectionHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl h"/>
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl r"/>
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l"/>
+  </action>
+  <action id="ReplaceInPath"/>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9"/>
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s"/>
+    <keyboard-shortcut first-keystroke="ctrl comma"/>
+  </action>
+  <action id="Terminal.ClearPrompt">
+    <keyboard-shortcut first-keystroke="ctrl c"/>
+  </action>
+  <action id="Terminal.CopyBlock"/>
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="shift ctrl g"/>
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl g"/>
+  </action>
+</keymap>

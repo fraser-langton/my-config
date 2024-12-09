@@ -1,0 +1,103 @@
+<keymap version="1" name="macOS - Fraser" parent="Mac OS X 10.5+">
+  <action id="ActivateBookmarksToolWindow"/>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4"/>
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2"/>
+  </action>
+  <action id="ActivateFindToolWindow"/>
+  <action id="ActivateProblemsViewToolWindow"/>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1"/>
+  </action>
+  <action id="ActivatePythonConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9"/>
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt 2"/>
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7"/>
+  </action>
+  <action id="ActivateStructureToolWindow"/>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3"/>
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5"/>
+  </action>
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="shift meta alt c"/>
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="meta delete"/>
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="meta back_space"/>
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl e"/>
+    <keyboard-shortcut first-keystroke="end"/>
+    <keyboard-shortcut first-keystroke="meta e"/>
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="ctrl a"/>
+    <keyboard-shortcut first-keystroke="home"/>
+    <keyboard-shortcut first-keystroke="meta a"/>
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="meta right"/>
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="meta left"/>
+  </action>
+  <action id="ExecuteRuff">
+    <keyboard-shortcut first-keystroke="meta alt l"/>
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3"/>
+  </action>
+  <action id="FindPrevious"/>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift meta b"/>
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o"/>
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta l"/>
+  </action>
+  <action id="GotoRow"/>
+  <action id="GotoTypeDeclaration"/>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="meta h"/>
+  </action>
+  <action id="LocalHistory.ShowSelectionHistory">
+    <keyboard-shortcut first-keystroke="shift meta h"/>
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift meta r"/>
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l"/>
+  </action>
+  <action id="ReplaceInPath"/>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9"/>
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="meta comma"/>
+    <keyboard-shortcut first-keystroke="meta alt s"/>
+  </action>
+  <action id="Terminal.ClearPrompt">
+    <keyboard-shortcut first-keystroke="meta c"/>
+  </action>
+  <action id="Terminal.CopyBlock"/>
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="shift meta g"/>
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta g"/>
+  </action>
+</keymap>
